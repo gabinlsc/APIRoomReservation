@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Resa.DataAccess\Resa.DataAccess.csproj" />
+    <ProjectReference Include="..\Resa.Dto\Resa.Dto.csproj" />
+    <ProjectReference Include="..\Resa.Entities\Resa.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
