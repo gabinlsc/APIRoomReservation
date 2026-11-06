@@ -1,3 +1,8 @@
 <Solution>
+  <Project Path="../Resa.DataAccess/Resa.DataAccess.csproj" />
+  <Project Path="../Resa.Dto/Resa.Dto.csproj" />
+  <Project Path="../Resa.Entities/Resa.Entities.csproj" />
+  <Project Path="../Resa.Services/Resa.Services.csproj" />
+  <Project Path="../Resa.Tests/Resa.Tests.csproj" />
   <Project Path="APIRoomReservation.csproj" />
 </Solution>

@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
@@ -7,7 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="10.0.14" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.14" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Resa.DataAccess\Resa.DataAccess.csproj" />
+    <ProjectReference Include="..\Resa.Dto\Resa.Dto.csproj" />
+    <ProjectReference Include="..\Resa.Entities\Resa.Entities.csproj" />
+    <ProjectReference Include="..\Resa.Services\Resa.Services.csproj" />
   </ItemGroup>
 
 </Project>
