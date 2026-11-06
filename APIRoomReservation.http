@@ -1,0 +1,6 @@
+@APIRoomReservation_HostAddress = http://localhost:5116
+
+GET {{APIRoomReservation_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
